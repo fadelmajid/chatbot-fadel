@@ -84,7 +84,7 @@ class Controller {
             }
         })
         .then(data => {
-            res.send(data)
+            res.send('success')
         })
         .catch(err => {
             res.send(err)
